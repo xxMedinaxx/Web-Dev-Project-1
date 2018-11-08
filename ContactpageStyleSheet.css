@@ -1,0 +1,113 @@
+.main-nav
+{
+    float: right;
+    list-style: none;
+    margin-top: 5px;
+}
+
+.main-nav li
+{
+    display: inline-block;
+    
+}
+
+.main-nav li a
+{
+    /* color: white; */
+    color: rgb(6, 213, 250);
+    text-decoration: none;
+    padding: 1px 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+    border-radius: 7px;
+}
+
+
+.main-nav li a:hover{
+    border: 1px solid white;
+    color: red;
+}
+
+
+
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: rgba(6, 213, 250, .5);
+    border-radius: 7px;
+    /* background: green; */
+    width: 100px;
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: lightblue;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+
+
+
+body{
+    background: black;
+}
+
+
+
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+    font-size: 1.1rem;
+    text-align: left;
+    background: black;
+    border-radius: 6px
+}
+
+table a {
+    font-weight: 800;
+    /* color: #1d1e25; */
+    color: white
+    font-size 1.25rem
+
+}
+
+table a:hover{
+    text-decoration: underline;
+    color: red
+}
+th {
+    /* background: rgba(131, 15, 0, 0.795); */
+    /* background-color: rgb(6, 213, 250); */
+    background-color:rgba(6, 213, 250, .7);
+    color: white;
+    padding: 1rem;
+    font-size: 1.25rem;
+    border-bottom: 2px solid #ebecec;
+    font-weight: 400px;
+}
+
+td {
+    padding: 1.5rem 1rem;
+    border-bottom: 1px solid #ebecec;
+    color: white;
+
+}
+td a{
+    text-decoration: none;
+    color: white;
+}

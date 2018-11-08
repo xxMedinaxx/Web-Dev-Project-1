@@ -1,0 +1,272 @@
+/* Add a black background color to the top navigation */
+.topnav{
+    background-color:transparent;
+    overflow: hidden;
+    border: 40px;
+    padding: 10px;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: right;
+    color: rgb(6, 213, 250);
+    text-decoration: none;
+    text-align: center;
+    padding: 1px 20px;
+    font-size: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover{
+    background-color: transparent;
+    color: red;
+    border: 2px solid white;
+    border-radius: 7px;
+}
+
+/* .dropdown{
+    position: relative;
+    float: right;
+    display: inline-block;
+} */
+ 
+/* .dropdown-content {
+    overflow: hidden; 
+    display: none;
+    position: static;
+    background-color: rgba(6, 213, 250, .5);
+    border-radius: 7px;
+    width: 100px;
+    z-index: 1;
+} */
+
+/* .dropdown-content a {
+    color: black;
+    padding: 1px 2px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: lightblue;}
+
+.dropdown:hover .dropdown-content {display: block;} */
+
+body{
+    /* background-color: rgb(6, 213, 250); */
+    background-color: white;
+    color: white;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /* background-image: url(SpaceLogo.png); */
+    background-image: url(images/circuit.png);
+}
+.about p{
+    color: white;
+    /* font-family: soft, Haettenschweiler, 'Arial Narrow Bold', sans-serif; */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+} 
+.about{
+    color: rgb(6, 213, 250);
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+span{
+    box-shadow: 0 10px 2px rgba(0, 0, 0, .5);
+    border-radius: 7px;
+    background-color: transparent;
+    border-width: 10px;
+    border-style: groove;
+    border-color: grey;
+
+}
+hr{
+    border: 0;
+    height: 0;
+    border-top: 1px solid rgba(6, 213, 250, .3);
+    border-bottom: 1px solid rgba(6, 213, 250, .3);
+}
+
+.small-container p{
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.small-container{
+    color: rgb(6, 213, 250);
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.container{
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.container .card a{
+    text-decoration: none;
+    color: black;
+}
+
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    text-decoration: none;
+}
+
+.card{
+    background-color:rgba(6, 213, 250, .7);
+    text-align: center; 
+    color:white;
+    border: 1px solid black;
+    border-radius: 6px;
+    box-shadow: 0 10px 2px rgba(0, 0, 0, .5);
+    padding: 2.5rem;
+    margin: .5rem;
+}
+
+.card a:hover {
+    text-decoration: underline;
+    color: red;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 6px 25px rgba(0,0,0,.1);
+}
+
+.card img {
+    display: block;
+    margin: 0 auto;
+}
+
+img{
+    height: auto;
+    max-width: 100%;
+}
+
+.skills .card img {
+    max-width: 50px;
+    border-radius: 6px;
+}
+
+
+.job-company{
+    float: right;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+    font-size: 1.1rem;
+    text-align: left;
+    background: transparent;
+    border-radius: 6px
+}
+
+table a {
+    font-weight: 800;
+    color: white
+    font-size 1.25rem
+
+}
+
+table a:hover{
+    text-decoration: underline;
+    color: red
+}
+th {
+    background-color:rgba(6, 213, 250, .7);
+    color: white;
+    padding: 1rem;
+    font-size: 1.25rem;
+    border-bottom: 2px solid #ebecec;
+    font-weight: 400px;
+}
+
+td {
+    padding: 1.5rem 1rem;
+    border-bottom: 1px solid #ebecec;
+    color: white;
+
+}
+
+td a{
+    text-decoration: none;
+    color: white;
+}
+
+.section-header {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+.container, .small-container {
+    max-width: 1050px;
+    padding: 0 1rem;
+    margin: auto;
+}
+
+.small-container {
+    max-width: 650px;
+}
+
+.small-container p a{
+    text-decoration: none;
+    color: rgb(6, 213, 250);
+}
+
+.small-container a:hover{
+    text-decoration: underline;
+    color: red;
+}
+
+form {
+    display: block;
+    margin-top: 0em;
+}
+
+label {
+    display: block;
+    font-weight: 700;
+    margin-bottom: .5rem
+}
+
+[type=text],[type=email],textarea {
+    width: 100%;
+    display: block;
+    border: 1px solid #dee0e0;
+    border-radius: 6px;
+    -webkit-box-shadow: 0 1px 2px rgba(0,0,0,.1);
+    box-shadow: 0 1px 2px rgba(0,0,0,.1);
+    padding: 1rem;
+    font-size: 1.1rem;
+    margin-bottom: 1rem
+}
+
+.site-footer {
+    text-align: center;
+    padding: 2rem 0;
+    background: transparent;
+    color: #bec6d5;
+}
+
+.social-icons a {
+    color: rgba(6, 213, 250,0.795);
+    margin: 0 .5rem;
+    font-size: 40px;
+}
+
+.social-icons a:hover {
+    text-decoration: none;
+    color: red;
+}
+
+.footer-bottom {
+    text-align: center;
+    color: rgb(6, 213, 250);
+}
+
